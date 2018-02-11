@@ -1,0 +1,432 @@
+[host:] [param:] [URL:]
+[server runtime: 496] [2018-02-08 17:20:08.229 CST INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48)]
+[MSG]: Starting SpringsecuritysampleApplication on XTZ-01705201522 with PID 3508 (F:\workspace2\springsecuritysample\target\classes started by Administrator in F:\workspace2\springsecuritysample)
+
+[host:] [param:] [URL:]
+[server runtime: 497] [2018-02-08 17:20:08.230 CST INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597)]
+[MSG]: The following profiles are active: dev
+
+[host:] [param:] [URL:]
+[server runtime: 746] [2018-02-08 17:20:08.479 CST INFO  org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30)]
+[MSG]: HV000001: Hibernate Validator 5.3.6.Final
+
+[host:] [param:] [URL:]
+[server runtime: 750] [2018-02-08 17:20:08.483 CST INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)]
+[MSG]: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9573584: startup date [Thu Feb 08 17:20:08 CST 2018]; root of context hierarchy
+
+[host:] [param:] [URL:]
+[server runtime: 1400] [2018-02-08 17:20:09.133 CST INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:828)]
+[MSG]: Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+
+[host:] [param:] [URL:]
+[server runtime: 1456] [2018-02-08 17:20:09.189 CST INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:165)]
+[MSG]: Multiple Spring Data modules found, entering strict repository configuration mode!
+
+[host:] [param:] [URL:]
+[server runtime: 3167] [2018-02-08 17:20:10.900 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'redisConfig' of type [com.hyhy.config.RedisConfig$$EnhancerBySpringCGLIB$$24a789c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 3179] [2018-02-08 17:20:10.912 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac4dad47] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 3227] [2018-02-08 17:20:10.960 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'keyGenerator' of type [com.hyhy.config.RedisConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 3228] [2018-02-08 17:20:10.961 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$f55fe365] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 3688] [2018-02-08 17:20:11.421 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89)]
+[MSG]: Tomcat initialized with port(s): 8888 (http)
+
+[host:] [param:] [URL:]
+[server runtime: 3702] [2018-02-08 17:20:11.435 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting service [Tomcat]
+
+[host:] [param:] [URL:]
+[server runtime: 3704] [2018-02-08 17:20:11.437 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting Servlet Engine: Apache Tomcat/8.5.27
+
+[host:] [param:] [URL:]
+[server runtime: 3832] [2018-02-08 17:20:11.565 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing Spring embedded WebApplicationContext
+
+[host:] [param:] [URL:]
+[server runtime: 3832] [2018-02-08 17:20:11.565 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276)]
+[MSG]: Root WebApplicationContext: initialization completed in 3082 ms
+
+[host:] [param:] [URL:]
+[server runtime: 4111] [2018-02-08 17:20:11.844 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4112] [2018-02-08 17:20:11.845 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4112] [2018-02-08 17:20:11.845 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4112] [2018-02-08 17:20:11.845 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'requestContextFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4113] [2018-02-08 17:20:11.846 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'springSecurityFilterChain' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4113] [2018-02-08 17:20:11.846 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190)]
+[MSG]: Mapping servlet: 'dispatcherServlet' to [/]
+
+[host:] [param:] [URL:]
+[server runtime: 6740] [2018-02-08 17:20:14.473 CST INFO  org.springframework.security.web.DefaultSecurityFilterChain.<init>(DefaultSecurityFilterChain.java:43)]
+[MSG]: Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47187f50, org.springframework.security.web.context.SecurityContextPersistenceFilter@325162e9, org.springframework.security.web.header.HeaderWriterFilter@7eb27768, org.springframework.security.web.csrf.CsrfFilter@11810917, org.springframework.security.web.authentication.logout.LogoutFilter@37e7c4cc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3869a6e5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c448ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d8835af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78116659, org.springframework.security.web.session.SessionManagementFilter@5e3db14, org.springframework.security.web.access.ExceptionTranslationFilter@7d133fb7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f048c86]
+
+[host:] [param:] [URL:]
+[server runtime: 7131] [2018-02-08 17:20:14.864 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)]
+[MSG]: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9573584: startup date [Thu Feb 08 17:20:08 CST 2018]; root of context hierarchy
+
+[host:] [param:] [URL:]
+[server runtime: 7209] [2018-02-08 17:20:14.942 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/index]}" onto public java.lang.String com.hyhy.web.MainController.index()
+
+[host:] [param:] [URL:]
+[server runtime: 7210] [2018-02-08 17:20:14.943 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/]}" onto public java.lang.String com.hyhy.web.MainController.root()
+
+[host:] [param:] [URL:]
+[server runtime: 7210] [2018-02-08 17:20:14.943 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/login-error]}" onto public java.lang.String com.hyhy.web.MainController.loginError(org.springframework.ui.Model)
+
+[host:] [param:] [URL:]
+[server runtime: 7210] [2018-02-08 17:20:14.943 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/login]}" onto public java.lang.String com.hyhy.web.MainController.login()
+
+[host:] [param:] [URL:]
+[server runtime: 7211] [2018-02-08 17:20:14.944 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/user/index]}" onto public java.lang.String com.hyhy.web.MainController.userIndex()
+
+[host:] [param:] [URL:]
+[server runtime: 8323] [2018-02-08 17:20:16.056 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[host:] [param:] [URL:]
+[server runtime: 8323] [2018-02-08 17:20:16.056 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[host:] [param:] [URL:]
+[server runtime: 8403] [2018-02-08 17:20:16.136 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 8403] [2018-02-08 17:20:16.136 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 8459] [2018-02-08 17:20:16.192 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 12262] [2018-02-08 17:20:19.995 CST INFO  org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431)]
+[MSG]: Registering beans for JMX exposure on startup
+
+[host:] [param:] [URL:]
+[server runtime: 12264] [2018-02-08 17:20:19.997 CST INFO  org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916)]
+[MSG]: Bean with name 'dataSource' has been autodetected for JMX exposure
+
+[host:] [param:] [URL:]
+[server runtime: 12269] [2018-02-08 17:20:20.002 CST INFO  org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:671)]
+[MSG]: Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+
+[host:] [param:] [URL:]
+[server runtime: 12298] [2018-02-08 17:20:20.031 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing ProtocolHandler ["http-nio-8888"]
+
+[host:] [param:] [URL:]
+[server runtime: 12313] [2018-02-08 17:20:20.046 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting ProtocolHandler ["http-nio-8888"]
+
+[host:] [param:] [URL:]
+[server runtime: 12324] [2018-02-08 17:20:20.057 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Using a shared selector for servlet write/read
+
+[host:] [param:] [URL:]
+[server runtime: 12347] [2018-02-08 17:20:20.080 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201)]
+[MSG]: Tomcat started on port(s): 8888 (http)
+
+[host:] [param:] [URL:]
+[server runtime: 12352] [2018-02-08 17:20:20.085 CST INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57)]
+[MSG]: Started SpringsecuritysampleApplication in 12.216 seconds (JVM running for 12.765)
+
+[host:] [param:] [URL:]
+[server runtime: 56072] [2018-02-08 17:21:03.805 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[host:] [param:] [URL:]
+[server runtime: 56073] [2018-02-08 17:21:03.806 CST INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)]
+[MSG]: FrameworkServlet 'dispatcherServlet': initialization started
+
+[host:] [param:] [URL:]
+[server runtime: 56104] [2018-02-08 17:21:03.837 CST INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)]
+[MSG]: FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+
+[host:] [param:] [URL:]
+[server runtime: 56196] [2018-02-08 17:21:03.929 CST INFO  org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:825)]
+[MSG]: [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+
+[host:] [param:] [URL:]
+[server runtime: 56237] [2018-02-08 17:21:03.970 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver.initialize(AbstractTemplateResolver.java:99)]
+[MSG]: [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+
+[host:] [param:] [URL:]
+[server runtime: 56237] [2018-02-08 17:21:03.970 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver.initialize(AbstractTemplateResolver.java:110)]
+[MSG]: [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+
+[host:] [param:] [URL:]
+[server runtime: 56238] [2018-02-08 17:21:03.971 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver.initialize(AbstractMessageResolver.java:72)]
+[MSG]: [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+
+[host:] [param:] [URL:]
+[server runtime: 56238] [2018-02-08 17:21:03.971 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver.initialize(AbstractMessageResolver.java:78)]
+[MSG]: [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+
+[host:] [param:] [URL:]
+[server runtime: 56256] [2018-02-08 17:21:03.989 CST INFO  org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:838)]
+[MSG]: [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+
+[host:] [param:] [URL:]
+[server runtime: 75727] [2018-02-08 17:21:23.460 CST INFO  com.hyhy.security.HyUserDetailsService.loadUserByUsername(HyUserDetailsService.java:57)]
+[MSG]: UserDetailsService exception...
+
+[host:] [param:] [URL:]
+[server runtime: 232469] [2018-02-08 17:24:00.202 CST INFO  com.hyhy.security.HyUserDetailsService.loadUserByUsername(HyUserDetailsService.java:57)]
+[MSG]: UserDetailsService exception...
+
+[host:] [param:] [URL:]
+[server runtime: 436025] [2018-02-08 17:27:23.758 CST INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:125)]
+[MSG]: Application shutdown requested.
+
+[host:] [param:] [URL:]
+[server runtime: 436026] [2018-02-08 17:27:23.759 CST INFO  org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:984)]
+[MSG]: Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9573584: startup date [Thu Feb 08 17:20:08 CST 2018]; root of context hierarchy
+
+[host:] [param:] [URL:]
+[server runtime: 436029] [2018-02-08 17:27:23.762 CST INFO  org.springframework.jmx.export.MBeanExporter.destroy(MBeanExporter.java:449)]
+[MSG]: Unregistering JMX-exposed beans on shutdown
+
+[host:] [param:] [URL:]
+[server runtime: 436030] [2018-02-08 17:27:23.763 CST INFO  org.springframework.jmx.support.MBeanRegistrationSupport.unregisterBeans(MBeanRegistrationSupport.java:241)]
+[MSG]: Unregistering JMX-exposed beans
+
+[host:] [param:] [URL:]
+[server runtime: 506] [2018-02-08 17:30:06.598 CST INFO  org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:48)]
+[MSG]: Starting SpringsecuritysampleApplication on XTZ-01705201522 with PID 12616 (F:\workspace2\springsecuritysample\target\classes started by Administrator in F:\workspace2\springsecuritysample)
+
+[host:] [param:] [URL:]
+[server runtime: 506] [2018-02-08 17:30:06.598 CST INFO  org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:597)]
+[MSG]: The following profiles are active: dev
+
+[host:] [param:] [URL:]
+[server runtime: 721] [2018-02-08 17:30:06.813 CST INFO  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:583)]
+[MSG]: Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9573584: startup date [Thu Feb 08 17:30:06 CST 2018]; root of context hierarchy
+
+[host:] [param:] [URL:]
+[server runtime: 736] [2018-02-08 17:30:06.828 CST INFO  org.hibernate.validator.internal.util.Version.<clinit>(Version.java:30)]
+[MSG]: HV000001: Hibernate Validator 5.3.6.Final
+
+[host:] [param:] [URL:]
+[server runtime: 1354] [2018-02-08 17:30:07.446 CST INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory.registerBeanDefinition(DefaultListableBeanFactory.java:828)]
+[MSG]: Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+
+[host:] [param:] [URL:]
+[server runtime: 1412] [2018-02-08 17:30:07.504 CST INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:165)]
+[MSG]: Multiple Spring Data modules found, entering strict repository configuration mode!
+
+[host:] [param:] [URL:]
+[server runtime: 2843] [2018-02-08 17:30:08.935 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'redisConfig' of type [com.hyhy.config.RedisConfig$$EnhancerBySpringCGLIB$$b6b5b395] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 2857] [2018-02-08 17:30:08.949 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$60b8e840] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 2911] [2018-02-08 17:30:09.003 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'keyGenerator' of type [com.hyhy.config.RedisConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 2912] [2018-02-08 17:30:09.004 CST INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:327)]
+[MSG]: Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$a9cb1e5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+[host:] [param:] [URL:]
+[server runtime: 3372] [2018-02-08 17:30:09.464 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.initialize(TomcatEmbeddedServletContainer.java:89)]
+[MSG]: Tomcat initialized with port(s): 8888 (http)
+
+[host:] [param:] [URL:]
+[server runtime: 3382] [2018-02-08 17:30:09.474 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting service [Tomcat]
+
+[host:] [param:] [URL:]
+[server runtime: 3384] [2018-02-08 17:30:09.476 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting Servlet Engine: Apache Tomcat/8.5.27
+
+[host:] [param:] [URL:]
+[server runtime: 3501] [2018-02-08 17:30:09.593 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing Spring embedded WebApplicationContext
+
+[host:] [param:] [URL:]
+[server runtime: 3502] [2018-02-08 17:30:09.594 CST INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.prepareEmbeddedWebApplicationContext(EmbeddedWebApplicationContext.java:276)]
+[MSG]: Root WebApplicationContext: initialization completed in 2781 ms
+
+[host:] [param:] [URL:]
+[server runtime: 4296] [2018-02-08 17:30:10.388 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'characterEncodingFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4297] [2018-02-08 17:30:10.389 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4297] [2018-02-08 17:30:10.389 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4297] [2018-02-08 17:30:10.389 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'requestContextFilter' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4298] [2018-02-08 17:30:10.390 CST INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean.configure(AbstractFilterRegistrationBean.java:258)]
+[MSG]: Mapping filter: 'springSecurityFilterChain' to: [/*]
+
+[host:] [param:] [URL:]
+[server runtime: 4298] [2018-02-08 17:30:10.390 CST INFO  org.springframework.boot.web.servlet.ServletRegistrationBean.onStartup(ServletRegistrationBean.java:190)]
+[MSG]: Mapping servlet: 'dispatcherServlet' to [/]
+
+[host:] [param:] [URL:]
+[server runtime: 6522] [2018-02-08 17:30:12.614 CST INFO  org.springframework.security.web.DefaultSecurityFilterChain.<init>(DefaultSecurityFilterChain.java:43)]
+[MSG]: Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@245cb8df, org.springframework.security.web.context.SecurityContextPersistenceFilter@7741ae1b, org.springframework.security.web.header.HeaderWriterFilter@1ee40b5c, org.springframework.security.web.csrf.CsrfFilter@cbf1997, org.springframework.security.web.authentication.logout.LogoutFilter@284990de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47187f50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@545d2560, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d206a71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26b3c9a2, org.springframework.security.web.session.SessionManagementFilter@703e8050, org.springframework.security.web.access.ExceptionTranslationFilter@5fb54740, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ce524d2]
+
+[host:] [param:] [URL:]
+[server runtime: 7803] [2018-02-08 17:30:13.895 CST INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:534)]
+[MSG]: Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9573584: startup date [Thu Feb 08 17:30:06 CST 2018]; root of context hierarchy
+
+[host:] [param:] [URL:]
+[server runtime: 7882] [2018-02-08 17:30:13.974 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/index]}" onto public java.lang.String com.hyhy.web.MainController.index()
+
+[host:] [param:] [URL:]
+[server runtime: 7883] [2018-02-08 17:30:13.975 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/]}" onto public java.lang.String com.hyhy.web.MainController.root()
+
+[host:] [param:] [URL:]
+[server runtime: 7883] [2018-02-08 17:30:13.975 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/user/index]}" onto public java.lang.String com.hyhy.web.MainController.userIndex()
+
+[host:] [param:] [URL:]
+[server runtime: 7883] [2018-02-08 17:30:13.975 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/login]}" onto public java.lang.String com.hyhy.web.MainController.login()
+
+[host:] [param:] [URL:]
+[server runtime: 7884] [2018-02-08 17:30:13.976 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/login-error]}" onto public java.lang.String com.hyhy.web.MainController.loginError(org.springframework.ui.Model)
+
+[host:] [param:] [URL:]
+[server runtime: 7888] [2018-02-08 17:30:13.980 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+[host:] [param:] [URL:]
+[server runtime: 7889] [2018-02-08 17:30:13.981 CST INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:543)]
+[MSG]: Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+[host:] [param:] [URL:]
+[server runtime: 7954] [2018-02-08 17:30:14.046 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 7955] [2018-02-08 17:30:14.047 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 9477] [2018-02-08 17:30:15.569 CST INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler(AbstractUrlHandlerMapping.java:362)]
+[MSG]: Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+[host:] [param:] [URL:]
+[server runtime: 11554] [2018-02-08 17:30:17.646 CST INFO  org.springframework.jmx.export.MBeanExporter.afterSingletonsInstantiated(MBeanExporter.java:431)]
+[MSG]: Registering beans for JMX exposure on startup
+
+[host:] [param:] [URL:]
+[server runtime: 11555] [2018-02-08 17:30:17.647 CST INFO  org.springframework.jmx.export.MBeanExporter.autodetect(MBeanExporter.java:916)]
+[MSG]: Bean with name 'dataSource' has been autodetected for JMX exposure
+
+[host:] [param:] [URL:]
+[server runtime: 11558] [2018-02-08 17:30:17.650 CST INFO  org.springframework.jmx.export.MBeanExporter.registerBeanInstance(MBeanExporter.java:671)]
+[MSG]: Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+
+[host:] [param:] [URL:]
+[server runtime: 11581] [2018-02-08 17:30:17.673 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing ProtocolHandler ["http-nio-8888"]
+
+[host:] [param:] [URL:]
+[server runtime: 11592] [2018-02-08 17:30:17.684 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Starting ProtocolHandler ["http-nio-8888"]
+
+[host:] [param:] [URL:]
+[server runtime: 11601] [2018-02-08 17:30:17.693 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Using a shared selector for servlet write/read
+
+[host:] [param:] [URL:]
+[server runtime: 11620] [2018-02-08 17:30:17.712 CST INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:201)]
+[MSG]: Tomcat started on port(s): 8888 (http)
+
+[host:] [param:] [URL:]
+[server runtime: 12810] [2018-02-08 17:30:18.902 CST INFO  org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:57)]
+[MSG]: Started SpringsecuritysampleApplication in 12.656 seconds (JVM running for 13.259)
+
+[host:] [param:] [URL:]
+[server runtime: 23571] [2018-02-08 17:30:29.663 CST INFO  org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:180)]
+[MSG]: Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+[host:] [param:] [URL:]
+[server runtime: 23571] [2018-02-08 17:30:29.663 CST INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)]
+[MSG]: FrameworkServlet 'dispatcherServlet': initialization started
+
+[host:] [param:] [URL:]
+[server runtime: 23595] [2018-02-08 17:30:29.687 CST INFO  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:508)]
+[MSG]: FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+
+[host:] [param:] [URL:]
+[server runtime: 23680] [2018-02-08 17:30:29.772 CST INFO  org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:825)]
+[MSG]: [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+
+[host:] [param:] [URL:]
+[server runtime: 23724] [2018-02-08 17:30:29.816 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver.initialize(AbstractTemplateResolver.java:99)]
+[MSG]: [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+
+[host:] [param:] [URL:]
+[server runtime: 23725] [2018-02-08 17:30:29.817 CST INFO  org.thymeleaf.templateresolver.AbstractTemplateResolver.initialize(AbstractTemplateResolver.java:110)]
+[MSG]: [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+
+[host:] [param:] [URL:]
+[server runtime: 23725] [2018-02-08 17:30:29.817 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver.initialize(AbstractMessageResolver.java:72)]
+[MSG]: [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+
+[host:] [param:] [URL:]
+[server runtime: 23725] [2018-02-08 17:30:29.817 CST INFO  org.thymeleaf.messageresolver.AbstractMessageResolver.initialize(AbstractMessageResolver.java:78)]
+[MSG]: [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+
+[host:] [param:] [URL:]
+[server runtime: 23745] [2018-02-08 17:30:29.837 CST INFO  org.thymeleaf.TemplateEngine.initialize(TemplateEngine.java:838)]
+[MSG]: [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+
+[host:] [param:] [URL:]
+[server runtime: 36526] [2018-02-08 17:30:42.618 CST INFO  com.hyhy.security.HyUserDetailsService.loadUserByUsername(HyUserDetailsService.java:44)]
+[MSG]: log in username:user.......
+
+[host:] [param:] [URL:]
+[server runtime: 73950] [2018-02-08 17:31:20.042 CST INFO  com.hyhy.security.HyUserDetailsService.loadUserByUsername(HyUserDetailsService.java:58)]
+[MSG]: UserDetailsService exception...
+
